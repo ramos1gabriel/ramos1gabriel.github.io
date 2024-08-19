@@ -11,7 +11,7 @@ function Magia(id, marcacao, titulo, tipo, tempo, alcance, componentes, duracao,
     this.descricao = descricao
 }
 
-function carregarArquivoTXT(acao, livro) {
+async function carregarArquivoTXT(acao, livro) {
     
     var arquivo = 'magias-'+acao+'-'+livro;
     //console.log(livro);
