@@ -22,7 +22,11 @@
     $(document).ready(function() {
         var livro = new URL(window.location.href).searchParams.get("livro");
         //console.log("livro="+livro);
-        carregarArquivoTXT('descricao', livro);
+		
+		setTimeout(function(){
+		console.log('carregado!');
+			carregarArquivoTXT('descricao', livro);
+		}, 2000);
     });
 
     function voltar() {

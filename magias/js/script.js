@@ -21,9 +21,7 @@ function carregarArquivoTXT(acao, livro) {
             if(acao == 'lista') {
                 carregarListaMagias(text, livro);
             } else if(acao == 'descricao') {
-                setTimeout(function(){
-                    carregarDescricaoMagia(text);
-                }, 2000);
+                carregarDescricaoMagia(text);
             }
     })
 }
