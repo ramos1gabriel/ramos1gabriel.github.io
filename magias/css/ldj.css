@@ -1,0 +1,24 @@
+/** MARCACOES **/
+
+/*magias dano*/
+#magia120, #magia130, #magia140, #magia151, #magia181, #magia241, #magia102, #magia132,
+#magia252, #magia233, #magia64, #magia94, #magia214, #magia224, #magia65  {
+   background-color: #d5190b;
+}
+
+/*magias dano favorita*/
+#magia161, #magia134, #magia45, #magia23 {
+   background-color: #d5190b;
+   font-weight: bold;
+}
+
+/*magias reacoes*/
+#magia111, #magia53 {
+   background-color: #025956;
+   font-weight: bold;
+}
+
+/*magias uteis*/
+#magia42, #magia232, #magia291, #magia292, #magia74, #magia174, #magia194, #magia203, #magia12, #magia175 {
+   background-color: #6a25e2;
+}

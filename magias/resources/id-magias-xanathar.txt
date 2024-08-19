@@ -1,0 +1,131 @@
+0-TRUQUES
+1-NÍVEL 1
+2-NÍVEL 2
+3-NÍVEL 3
+4-NÍVEL 4
+5-NÍVEL 5
+6-NÍVEL 6
+7-NÍVEL 7
+8-NÍVEL 8
+9-NÍVEL 9
+10-Controlar chamas
+11-Absorver elementos
+12-Abraço terrestre de Maximilian
+13-Erupção de terra
+14-Destruição elemental
+15-Ataque do vento de aço
+16-Criar homúnculo
+17-Coroa de estrelas
+18-Dragão ilusório
+19-Grito psíquico
+20-Criar fogueira
+21-Catapulta
+22-Agarrão da terra
+23-Flechas flamejantes
+24-Enfeitiçar monstro
+25-Aurora
+26-Dispersão
+27-Palavra de poder dor
+28-Escuridão enlouquecedora
+29-Invulnerabilidade
+30-Golpe trovejante
+31-Causar medo
+32-Bafo de dragão
+33-Infestar de inimigos
+34-Esfera aquosa
+35-Chamado Infernal
+36-Gaiola da alma
+37-Vendaval
+38-Evaporação de Abi-Dalzim
+39-Metamorfose em massa
+40-Infestação 
+41-Faca de gelo
+42-Chuva de bolas de neve de Snilloc
+43-Invocar demônios menores
+44-Esfera cáustica
+45-Controlar os ventos
+46-Manto de chamas
+47-0
+48-Fortaleza poderosa
+49-0
+50-Lufada
+51-Laço
+52-Diabo da poeira
+53-Maremoto
+54-Esfera tempestuosa
+55-Dança macabra
+56-Manto de gelo
+57-0
+58-0
+59-0
+60-Moldar água
+61-Tremor de terra
+62-Escrita celeste
+63-Meteoros momentâneos de Melf
+64-Invocar demônio maior
+65-Enervação
+66-Manto de pedra
+67-0
+68-0
+69-0
+70-Moldar terra
+71-0
+72-Espinho mental
+73-Muralha de água
+74-Resplendor enjoativo
+75-Estática sináptica
+76-Manto de vento
+77-0
+78-0
+79-0
+80-Picada congelante
+81-0
+82-Lâmina sombria
+83-Muralha de areia
+84-0
+85-Inundação de energia negativa
+86-Prisão mental
+87-0
+88-0
+89-0
+90-Soar os mortos
+91-0
+92-Pirotecnia
+93-Passo trovejante
+94-0
+95-Parede de luz
+96-Transformação de Tenser
+97-0
+98-0
+99-0
+100-0
+101-0
+102-Queimadura de Aganazzar
+103-Pequeno servo
+104-0
+105-Passo distante
+106-0
+107-0
+108-0
+109-0
+110-0
+111-0
+112-Vento protetor
+113-Soneca
+114-0
+115-Transmutar pedra
+116-0
+117-0
+118-0
+119-0
+120-0
+121-0
+122-0
+123-Transferência de vida
+124-0
+125-0
+126-0
+127-0
+128-0
+129-0
+130-

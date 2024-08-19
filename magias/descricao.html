@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="js/script.js"></script>
+        <title>DESCRICAO</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="magia">
+            <h1>MAGIA AINDA NÃO MAPEADA!</h1>
+        </div>
+        
+        <p>
+            <input type="button" value="VOLTAR" id="botao" onClick="voltar()">
+        </p>
+    </body>
+</html>
+
+<script>
+    $(document).ready(function() {
+        var livro = new URL(window.location.href).searchParams.get("livro");
+        //console.log("livro="+livro);
+        carregarArquivoTXT('descricao', livro);
+    });
+
+    function voltar() {
+        var livro = new URL(window.location.href).searchParams.get("livro");
+        var link = "index.html";
+
+        if(livro == "xanathar") {
+            link = "xanathar.html"
+        } else if(livro == "tasha") {
+            link = "tasha.html"
+        }
+
+        window.location = link;
+    }
+</script>

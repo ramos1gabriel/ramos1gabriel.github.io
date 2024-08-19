@@ -1,0 +1,350 @@
+0-TRUQUES
+1-NÍVEL 1
+2-NÍVEL 2
+3-NÍVEL 3
+4-NÍVEL 4
+5-NÍVEL 5
+6-NÍVEL 6
+7-NÍVEL 7
+8-NÍVEL 8
+9-NÍVEL 9
+10-Amizade
+11-Alarme
+12-Alterar-se
+13-Animar Mortos
+14-Arca Secreta de Leomund
+15-Âncora Planar
+16-Ataque Visual
+17-Bola de Fogo Controlável
+18-Antipatia/Simpatia
+19-Alterar Forma
+20-Ataque Certeiro
+21-Área Escorregadia
+22-Arma Mágica
+23-Bola de Fogo
+24-Assassino Fantasmagórico
+25-Animar Objetos
+26-Carne para Pedra
+27-Dedo da Morte
+28-Campo Antimagia
+29-Aprisionamento
+30-Consertar
+31-Armadura Arcana
+32-Arrombar
+33-Círculo Mágico
+34-Banimento
+35-Círculo de Teletransporte
+36-Círculo da Morte
+37-Espada de Mordenkainen
+38-Clone
+39-Chuva de Meteoros
+40-Espirro Ácido
+41-Compreender Idiomas
+42-Aumentar/Reduzir
+43-Clarividência
+44-Cão Fiel de Mordenkainen
+45-Cone de Frio
+46-Contingência
+47-Inverter a Gravidade
+48-Controlar o Clima
+49-Desejo
+50-Globos de Luz
+51-Convocar Familiar
+52-Aura Mágica de Nystul
+53-Contramágica [REAÇÃO]
+54-Confusão
+55-Conhecimento Lendário
+56-Corrente de Relâmpagos
+57-Isolamento
+58-Dominar Monstro
+59-Encarnação Fantasmagórica
+60-Ilusão Menor
+61-Detectar Magia
+62-Boca Encantada
+63-Dificultar Detecção
+64-Conjurar Elementais Menores
+65-Conjurar Elemental
+66-Criar Mortos-Vivos
+67-Forma Etérea
+68-Enfraquecer o Intelecto
+69-Metamorfose Verdadeira
+70-Luz
+71-Disco Flutuante de Tenser
+72-Cegueira/Surdez
+73-Dissipar Magia
+74-Construir
+75-Contato Extraplanar
+76-Dança Irresistível de Otto
+77-Mansão Magnifica de Mordenkainen
+78-Explosão Solar
+79-Muralha Prismática
+80-Mãos Mágicas [BONUS]
+81-Disfarçar-se
+82-Chama Continua
+83-Enviar Mensagem
+84-Controlar a Água
+85-Criação
+86-Desintegrar
+87-Miragem
+88-Labirinto
+89-Palavra de Poder Matar
+90-Mensagem
+91-Enfeitiçar Pessoa
+92-Coroa da Loucura
+93-Forjar Morte
+94-Escudo de Fogo
+95-Criar Passagem
+96-Esfera Congelante de Otiluke
+97-Prisão de Energia
+98-Limpar a Mente
+99-Parar o Tempo
+100-Prestidigitação
+101-Escrita Ilusória
+102-Despedaçar
+103-Forma Gasosa
+104-Esfera Resiliente de Otiluke
+105-Despistar
+106-Globo de Invulnerabilidade
+107-Projetar Imagem
+108-Nuvem Incendiária
+109-Portal
+110-Proteção contra Lâminas
+111-Escudo Arcano  [REAÇÃO]
+112-Detectar Pensamentos
+113-Glifo de Vigilância
+114-Invisibilidade Maior
+115-Dominar Criatura
+116-Ilusão Programada
+117-Rajada Prismática
+118-Palavra de Poder Atordoar
+119-Projeção Astral
+120- Raio de Fogo
+121-Identificação
+122-Escuridão
+123-Idiomas
+124-Localizar Criatura
+125-Imobilizar Monstro
+126-Invocação Instantânea de Drawmij
+127-Símbolo
+128-Semiplano
+129-Sexto Sentido
+130-Raio de Gelo
+131-Imagem Silenciosa
+132-Esfera Flamejante
+133-Imagem Maior
+134-Malogro
+135-Ligação Telepática de Rary
+136-Mover Terra
+137-Simulacro
+138-Telepatia
+139-0
+140-Rajada de Veneno
+141-Leque Cromático
+142-Flecha Ácida de Melf
+143-Lentidão
+144-Metamorfose
+145-Mão de Bigby
+146-Muralha de Gelo
+147-Teletransporte
+148-0
+149-0
+150-Toque Arrepiante
+151-Mãos Flamejantes
+152-Força Fantasmagórica
+153-Medo
+154-Moldar Rochas
+155-Missão
+156-Portal Arcano
+157-Viagem Planar
+158-0
+159-0
+160-Toque Chocante
+161-Mísseis Mágicos
+162-Imobilizar Pessoa
+163-Montaria Fantasmagórica
+164-Muralha de Fogo
+165-Modificar Memória
+166-Proteger Fortaleza
+167-0
+168-0
+169-0
+170-0
+171-Névoa Obscurecente
+172-Invisibilidade
+173-Nevasca
+174-Olho Arcano
+175-Muralha de Energia
+176-Raio Solar
+177-0
+178-0
+179-0
+180-0
+181-Onda Trovejante
+182-Levitação
+183-Névoa Fétida
+184-Pele de Pedra
+185-Muralha de Pedra
+186-Recipiente Arcano
+187-0
+188-0
+189-0
+190-0
+191-Orbe Cromática
+192-Localizar Objeto
+193-Padrão Hipnótico
+194-Porta Dimensional
+195-Névoa Mortal
+196-Sugestão em Massa
+197-0
+198-0
+199-0
+200-0
+201-Passos Longos [BONUS]
+202-Lufada de Vento
+203-Pequena Cabana de Leomund
+204-Santuário Particular de Mordenkainen
+205-Similaridade
+206-Visão da Verdade
+207-0
+208-0
+209-0
+210-0
+211-Proteção contra o Bem e Mal
+212-Nublar
+213-Piscar
+214-Tempestade de Gelo
+215-Sonho
+216-0
+217-0
+218-0
+219-0
+220-0
+221-Queda Suave
+222-Nuvem de Adagas
+223-Proteção contra Energia
+224-Tentáculos Negros de Evard
+225-Telecinésia
+226-0
+227-0
+228-0
+229-0
+230-0
+231-Raio Adoecente
+232-Passo Nebuloso [BONUS]
+233-Relâmpago
+234-Terreno Alucinógeno
+235-Vidência
+236-0
+237-0
+238-0
+239-0
+240-0
+241-Raio de Bruxa
+242-Patas de Aranha
+243-Remover Maldição
+244-0
+245-0
+246-0
+247-0
+248-0
+249-0
+250-0
+251-Recuo Acelerado
+252-Raio Ardente
+253-Respirar na Água
+254-0
+255-0
+256-0
+257-0
+258-0
+259-0
+260-0
+261-Riso Histérico de Tasha
+262-Raio do Enfraquecimento
+263-Rogar Maldição
+264-0
+265-0
+266-0
+267-0
+268-0
+269-0
+270-0
+271-Salto
+272-Reflexos
+273-Toque Vampírico
+274-0
+275-0
+276-0
+277-0
+278-0
+279-0
+280-0
+281-Servo Invisível
+282-Repouso Tranquilo
+283-Velocidade
+284-0
+285-0
+286-0
+287-0
+288-0
+289-0
+290-0
+291-Sono
+292-Sugestão
+293-Voo
+294-0
+295-0
+296-0
+297-0
+298-0
+299-0
+300-0
+301-Vida Falsa
+302-Teia
+303-0
+304-0
+305-0
+306-0
+307-0
+308-0
+309-0
+310-0
+311-0
+312-Tranca Arcana
+313-0
+314-0
+315-0
+316-0
+317-0
+318-0
+319-0
+320-0
+321-0
+322-Truque de Corda
+323-0
+324-0
+325-0
+326-0
+327-0
+328-0
+329-0
+330-0
+331-0
+332-Ver o Invisível
+333-0
+334-0
+335-0
+336-0
+337-0
+338-0
+339-0
+340-0
+341-0
+342-Visão no Escuro
+343-0
+344-0
+345-0
+346-0
+347-0
+348-0
+349-0

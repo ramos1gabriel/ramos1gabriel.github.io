@@ -1,0 +1,23 @@
+/** MARCACOES **/
+
+/*magias dano*/
+#magia30, #magia80, #magia90, #magia32, #magia93, #magia14  {
+   background-color: #d5190b;
+}
+
+/*magias dano favorita*/
+#magia13, #magia53, #magia63 {
+   background-color: #d5190b;
+   font-weight: bold;
+}
+
+/*magias reacoes*/
+#magia {
+   background-color: #025956;
+   font-weight: bold;
+}
+
+/*magias uteis*/
+#magia {
+   background-color: #6a25e2;
+}

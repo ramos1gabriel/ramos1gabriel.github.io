@@ -1,0 +1,71 @@
+0-TRUQUES
+1-NÍVEL 1
+2-NÍVEL 2
+3-NÍVEL 3
+4-NÍVEL 4
+5-NÍVEL 5
+6-NÍVEL 6
+7-NÍVEL 7
+8-NÍVEL 8
+9-NÍVEL 9
+10-Chicote Elétrico
+11-Beberagem Cáustica de Tasha
+12-Augúrio
+13-Fortaleza Intelectual
+14-Invocar Aberração
+15-0
+16-Disfarce Sobrenatural de Tasha
+17-Sonho de Véu Azul
+18-0
+19-Lâmina do Desastre
+20-Farpa Mental
+21-0
+22-Aprimorar Atributo
+23-Falar com Mortos
+24-Invocar Construto
+25-0
+26-Invocar Corruptor
+27-0
+28-0
+29-0
+30-Lâmina da Chama Esverdeada
+31-0
+32-Chicote Mental de Tasha
+33-Invocar Fada
+34-Invocar Elemental
+35-0
+36-0
+37-0
+38-0
+39-0
+40-Lâmina
+41-0
+42-0
+43-Invocar Morto-Vivo
+44-Presságio
+45-0
+46-0
+47-0
+48-0
+49-0
+50-Estrondosa
+51-0
+52-0
+53-Invocar Prole Sombria
+54-0
+55-0
+56-0
+57-0
+58-0
+59-0
+60-Rompante de Espadas
+61-0
+62-0
+63-Mortalha Espiritual
+64-0
+65-0
+66-0
+67-0
+68-0
+69-0
+70-
