@@ -23,8 +23,8 @@
         var livro = new URL(window.location.href).searchParams.get("livro");
         //console.log("livro="+livro);
 		
+		document.getElementById('magia').innerHTML = "CARREGANDO DADOS...";
 		setTimeout(function(){
-		console.log('carregado!');
 			carregarArquivoTXT('descricao', livro);
 		}, 2000);
     });
