@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" href="css/ldj.css">
+        <!--<link rel="stylesheet" href="css/ldj.css">-->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="js/script.js"></script>
         <title>MAGIAS MAGO - LDJ</title>
@@ -10,20 +10,75 @@
     </head>
     <body>
         <div class="topnav">
-            <a href="index.html">LIVRO JOGADOR</a>
-            <a href="xanathar.html">XANATHAR</a>
-            <a href="tasha.html">TASHA</a>
+            <a onClick="exibeLista('ldj')">LIVRO JOGADOR</a>
+            <a onClick="exibeLista('xanathar')">XANATHAR</a>
+            <a onClick="exibeLista('tasha')">TASHA</a>
         </div>
         <div class="content">
-            <div id="lista-magias"></div>
-            <!--tabela com magias-->
+            <!--tabelas com magias-->
+            <div id="lista-magias-ldj"></div>
+            <div id="lista-magias-xanathar"></div>
+            <div id="lista-magias-tasha"></div>
+            
+            <div id="descricao" style="display:none">
+                <div id="magia">
+                    <h1>MAGIA AINDA NÃO MAPEADA!</h1>
+                </div>
+                
+                <p>
+                    <input type="button" value="VOLTAR" id="botao" onClick="voltar()">
+                </p>
+            </div>
+
+            <div class='footer'><p>Contemplem o Mago! &copy; by <b>ERU</b></p></div>
         </div>
     </body>
 </html>
 
 <script>
+    var livroSelecionado = "ldj";
+
+    function exibeLista(livro) {
+        $("#descricao").hide();
+        var livros = ['ldj', 'xanathar', 'tasha'];
+        livroSelecionado = livro;
+
+        for (let i = 0; i < livros.length; i++) {
+            if(livros[i] == livro) {
+                $("#lista-magias-"+livros[i]).show();
+            } else {
+                $("#lista-magias-"+livros[i]).hide();
+            }
+        }
+    }
+
+    function exibeDescricaoMagia(id, livro) {
+        //console.log('id='+id);
+        //console.log('livro='+livro);
+
+        //esconde todas listas
+        $("#lista-magias-ldj").hide();
+        $("#lista-magias-xanathar").hide();
+        $("#lista-magias-tasha").hide();
+
+        //exibe descricao
+        $("#descricao").show();
+
+        pesquisarMagiaById(id, livro);
+    }
+
+    function voltar() {
+        exibeLista(livroSelecionado);
+    }
+
     $(document).ready(function() {
+        exibeLista('ldj');
         //carregarListaMagias();
         carregarArquivoTXT('lista', 'ldj');
+        carregarArquivoTXT('lista', 'xanathar');
+        carregarArquivoTXT('lista', 'tasha');
+        carregarArquivoTXT('descricao', 'ldj');
+        carregarArquivoTXT('descricao', 'xanathar');
+        carregarArquivoTXT('descricao', 'tasha');
     });
 </script>

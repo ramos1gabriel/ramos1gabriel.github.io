@@ -20,9 +20,13 @@
 
 <script>
     $(document).ready(function() {
-        var id = new URL(window.location.href).searchParams.get("id");
-        console.log('id='+id);
-        pesquisarMagiaById(id);
+        var livro = new URL(window.location.href).searchParams.get("livro");
+        //console.log("livro="+livro);
+		
+		document.getElementById('magia').innerHTML = "CARREGANDO DADOS...";
+		setTimeout(function(){
+			carregarArquivoTXT('descricao', livro);
+		}, 2000);
     });
 
     function voltar() {
