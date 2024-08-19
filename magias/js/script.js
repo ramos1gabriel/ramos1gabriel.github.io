@@ -11,7 +11,7 @@ function Magia(id, marcacao, titulo, tipo, tempo, alcance, componentes, duracao,
     this.descricao = descricao
 }
 
-async function carregarArquivoTXT(acao, livro) {
+function carregarArquivoTXT(acao, livro) {
     
     var arquivo = 'magias-'+acao+'-'+livro;
     //console.log(livro);
@@ -21,7 +21,9 @@ async function carregarArquivoTXT(acao, livro) {
             if(acao == 'lista') {
                 carregarListaMagias(text, livro);
             } else if(acao == 'descricao') {
-                carregarDescricaoMagia(text);
+                setTimeout(function(){
+                    carregarDescricaoMagia(text);
+                }, 2000);
             }
     })
 }
