@@ -1,7 +1,7 @@
 /** MARCACOES **/
 
 /*magias dano*/
-#magia10, #magia30, #magia32, #magia33, #magia43, #magia53, #magia14, #magia24, #magia34   {
+#magia10, #magia30, #magia12, #magia33, #magia43, #magia23, #magia14, #magia24, #magia34   {
    background-color: #d5190b;
 }
 
@@ -18,6 +18,6 @@
 }
 
 /*magias uteis*/
-#magia23 {
+/*#magia {
    background-color: #6a25e2;
-}
+}*/

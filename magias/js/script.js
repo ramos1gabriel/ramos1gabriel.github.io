@@ -1,8 +1,3 @@
-//variaveis globais
-var ldj = [];
-var xanathar = [];
-var tasha = [];
-
 //id;marcacao;titulo;tipo;tempo;alcance;componentes;duracao;descricao
 function Magia(id, marcacao, titulo, tipo, tempo, alcance, componentes, duracao, descricao) {
     this.id = id,
@@ -16,78 +11,6 @@ function Magia(id, marcacao, titulo, tipo, tempo, alcance, componentes, duracao,
     this.descricao = descricao
 }
 
-function pesquisarMagiaById(id, livro) {
-    if(livro == 'ldj') {
-        for (var i = 0; i < ldj.length; i++) {
-            if(ldj[i].id == id) {
-                printCamposDescricao(ldj[i]);
-                break;
-            }
-        }
-    } else if(livro == 'xanathar') {
-        for (var i = 0; i < ldj.length; i++) {
-            if(xanathar[i].id == id) {
-                printCamposDescricao(xanathar[i]);
-                break;
-            }
-        }
-    } else if(livro == 'tasha') {
-        for (var i = 0; i < ldj.length; i++) {
-            if(tasha[i].id == id) {
-                printCamposDescricao(tasha[i]);
-                break;
-            }
-        }
-    }
-}
-
-function printCamposDescricao(magia) {
-    var html = [];
-    //validacoes
-    if(magia.titulo != null) {
-        html.push('<h1>'+magia.titulo+'</h1>');
-    } else {
-        html.push('<h1>Título: N/A</h1>');
-    }
-
-    if(magia.tipo != null) {
-        html.push('<h3>'+magia.tipo+'</h3>');
-    } else {
-        html.push('<h3>Nível: N/A</h3>');
-    }
-
-    if(magia.tempo != null) {
-        html.push('<h3>'+magia.tempo+'</h3>');
-    } else {
-        html.push('<h3>Tempo de Conjuração: N/A</h3>');
-    }
-
-    if(magia.alcance != null) {
-        html.push('<h3>'+magia.alcance+'</h3>');
-    } else {
-        html.push('<h3>Alcance: N/A</h3>');
-    }
-
-    if(magia.componentes != null) {
-        html.push('<h3>'+magia.componentes+'</h3>');
-    } else {
-        html.push('<h3>Componentes: N/A</h3>');
-    }
-
-    if(magia.duracao != null) {
-        html.push('<h3>'+magia.duracao+'</h3>');
-    } else {
-        html.push('<h3>Duração: N/A</h3>');
-    }
-
-    if(magia.descricao != null) {
-        html.push('<span>'+magia.descricao+'</span>');
-    } else {
-        html.push('<span>Descrição: N/A</span>');
-    }
-    document.getElementById('magia').innerHTML = html.join("");
-}
-
 function carregarArquivoTXT(acao, livro) {
     
     var arquivo = 'magias-'+acao+'-'+livro;
@@ -99,17 +22,9 @@ function carregarArquivoTXT(acao, livro) {
                 carregarListaMagias(text, livro);
             } else if(acao == 'descricao') {
                 //carregarDescricaoMagia(text);
-                if(livro == 'ldj') {
-                    carregarDescricaoMagiaLdj(text);
-                } else if(livro == 'xanathar') {
-                    carregarDescricaoMagiaXanathar(text);
-                } else if(livro == 'tasha') {
-                    carregarDescricaoMagiaTasha(text);
-                }
+                printarMagiaDescricao(text);
             }
     })
-
-    console.log('carregando '+acao+' do '+livro+'...');
 }
 
 function carregarListaMagias(text, livro) {
@@ -126,8 +41,7 @@ function carregarListaMagias(text, livro) {
         }
         if(array[i] != "") {
             if(i > 9) { //titulo
-                //html.push("<td id='magia"+i+"'><a href='descricao.html?id="+i+"&livro="+livro+"'>"+array[i].replace("0", "")+"</td>");
-                html.push('<td id="magia'+i+'"><a onClick="exibeDescricaoMagia(\''+i+'\',\''+livro+'\')">'+array[i].replace("0", "")+'</a></td>'); 
+                html.push("<td id='magia"+i+"'><a href='descricao.html?id="+i+"&livro="+livro+"'>"+array[i].replace("0", "")+"</a></td>"); 
             } else {
                 html.push("<th id='magia"+i+"'>"+array[i].replace("0", "")+"</th>"); 
             }
@@ -141,10 +55,10 @@ function carregarListaMagias(text, livro) {
     html.push("</table>");
 
     //rodape
-    //html.push("<div class='footer'><p>Contemplem o Mago! &copy; by <b>ERU</b></p></div>");
+    html.push("<div class='footer'><p>Contemplem o Mago! &copy; by <b>ERU</b></p></div>");
     
     //console.log(html.join(""));
-    document.getElementById("lista-magias-"+livro).innerHTML = html.join("");
+    document.getElementById("lista-magias").innerHTML = html.join("");
 }
 
 function carregarDescricaoMagia(text) {
@@ -216,65 +130,32 @@ function carregarDescricaoMagia(text) {
     }
 }
 
-function carregarDescricaoMagiaLdj(text) {
-    //console.log(livro);
+function printarMagiaDescricao(text) {
+    //pega id da url
+    var livro = new URL(window.location.href).searchParams.get("livro");
+    //console.log(id);
+
     var lines = text.split("\r\n");
+    var magia1;
+
+    var html = [];
+
     //ler linha por linha
     for(var i  in lines) {
         var magia = lines[i].split(";"); //depois separa os atributos
-
-        ldj.push({
-            id:magia[0],
-            marcacao:magia[1],
-            titulo:magia[2],
-            tipo:magia[3],
-            tempo:magia[4],
-            alcance:magia[5], 
-            componentes: magia[6],
-            duracao: magia[7],
-            descricao: magia[8]
-        });
+        magia1 = new Magia(magia[0], magia[1], magia[2], magia[3], magia[4], magia[5], magia[6], magia[7], magia[8]);
+        if(magia1 != null) {
+            html.push("<div id="+livro+magia1.id+" style=display:none>");
+            html.push('<h1>'+magia1.titulo+'</h1>');
+            html.push('<h3>'+magia1.tipo+'</h3>');
+            html.push('<h3>'+magia1.tempo+'</h3>');
+            html.push('<h3>'+magia1.alcance+'</h3>');
+            html.push('<h3>'+magia1.componentes+'</h3>');
+            html.push('<h3>'+magia1.duracao+'</h3>');
+            html.push('<span>'+magia1.descricao+'</span>');
+            html.push('</div>');
+        }
     }
-}
 
-function carregarDescricaoMagiaXanathar(text) {
-    //console.log(livro);
-    var lines = text.split("\r\n");
-    //ler linha por linha
-    for(var i  in lines) {
-        var magia = lines[i].split(";"); //depois separa os atributos
-
-        xanathar.push({
-            id:magia[0],
-            marcacao:magia[1],
-            titulo:magia[2],
-            tipo:magia[3],
-            tempo:magia[4],
-            alcance:magia[5], 
-            componentes: magia[6],
-            duracao: magia[7],
-            descricao: magia[8]
-        });
-    }
-}
-
-function carregarDescricaoMagiaTasha(text) {
-    //console.log(livro);
-    var lines = text.split("\r\n");
-    //ler linha por linha
-    for(var i  in lines) {
-        var magia = lines[i].split(";"); //depois separa os atributos
-
-        tasha.push({
-            id:magia[0],
-            marcacao:magia[1],
-            titulo:magia[2],
-            tipo:magia[3],
-            tempo:magia[4],
-            alcance:magia[5], 
-            componentes: magia[6],
-            duracao: magia[7],
-            descricao: magia[8]
-        });
-    }
+    document.getElementById('magia').innerHTML = html.join("");
 }
